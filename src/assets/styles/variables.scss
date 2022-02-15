@@ -1,0 +1,48 @@
+$bamba-primary: #123291;
+$bamba-primary-30: #fff;
+$bamba-primary-20: #123291;
+$bamba-primary-10:  #EDF1FD;
+$bamba-secondary: #ad56c8;
+$bamba-secondary-70: #752d8b;;
+$bamba-secondary-10: #F8F0FA;
+$bamba-alternative: #ad56c8;
+$bamba-babe:#FFF8EB;
+$bamba-warning:#FF9A04;
+$bamba-dark: #83786F;
+$bamba-dark-30: #E5E5E5;
+
+
+$theme-colors: (
+        "primary": $bamba-primary,
+        "primary-30": $bamba-primary-30,
+        "primary-20": $bamba-primary-20,
+        "primary-10": $bamba-primary-10,
+        "secondary": $bamba-secondary,
+        "secondary-70": $bamba-secondary-70,
+        "secondary-10": $bamba-secondary-10,
+        "alternative": $bamba-alternative,
+        "babe":$bamba-babe,
+        "warning": $bamba-warning,
+        "dark": $bamba-dark,
+        "dark-30": $bamba-dark-30
+);
+
+$colors: (
+        "bambaPrimary": $bamba-primary,
+        "bambaPrimary20": $bamba-primary-20,
+        "bambaSecondary": $bamba-secondary,
+        "bambaSecondary10": $bamba-secondary-10,
+        "bambaSecondary70": $bamba-secondary-70,
+);
+
+//Font Size
+
+$lg-font-size:32px;
+$medium-lg-size:16px;
+$medium-font-size:24px;
+$small-font-size:14px;
+
+
+
+//line height
+

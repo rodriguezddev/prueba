@@ -1,0 +1,212 @@
+@import "variables";
+
+.btn-primary {
+  @include button-variant(
+                  $bamba-primary, // background
+                  $bamba-primary, // border
+                  $bamba-primary-20, // hover background (customise how you wish)
+                  $bamba-primary-20, // hover border (customise how you wish)
+                  $bamba-primary-20, // active background (customise how you wish)
+                  $bamba-primary-20 // active border (customise how you wish)
+  );
+}
+
+.btn-secondary {
+  @include button-variant(
+                  $bamba-secondary, // background
+                  $bamba-secondary, // border
+                  $bamba-secondary-70, // hover background (customise how you wish)
+                  $bamba-secondary-70, // hover border (customise how you wish)
+                  $bamba-secondary-70, // active background (customise how you wish)
+                  $bamba-secondary-70 // active border (customise how you wish)
+  );
+}
+
+.btn-alternative {
+  @include button-variant(
+                  $bamba-alternative, // background
+                  $bamba-alternative, // border
+                  $bamba-alternative, // hover background (customise how you wish)
+                  $bamba-alternative, // hover border (customise how you wish)
+                  $bamba-alternative, // active background (customise how you wish)
+                  $bamba-alternative // active border (customise how you wish)
+  );
+}
+
+.btn-secondary-light {
+  @include button-variant(
+                  $bamba-secondary, // background
+                  $bamba-secondary, // border
+                  $bamba-secondary-10, // hover background (customise how you wish)
+                  $bamba-secondary-10, // hover border (customise how you wish)
+                  $bamba-secondary-10, // active background (customise how you wish)
+                  $bamba-secondary-10 // active border (customise how you wish)
+  );
+}
+.btn-warning {
+  @include button-variant(
+                  $bamba-warning, // background
+                  $bamba-warning, // border
+                  $bamba-warning, // hover background (customise how you wish)
+                  $bamba-warning, // hover border (customise how you wish)
+                  $bamba-warning, // active background (customise how you wish)
+                  $bamba-warning // active border (customise how you wish)
+  );
+}
+
+.container-top {
+  margin-top: 100px;
+}
+.text-decoration{
+  border-bottom: solid 1px $bamba-primary;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+}
+.font-size-small{
+  font-size:$small-font-size
+}
+.font-size-medium-lg-size{
+  font-size: $medium-lg-size;
+}
+.font-size-medium{
+  font-size: $medium-font-size
+}
+.font-size-lg{
+  font-size: $lg-font-size
+}
+.input-bamba{
+  width:100%;
+  background: transparent;
+  border: solid $bamba-primary 2px;
+  border-radius: 6px;
+  color: $bamba-primary;
+  padding: 0.5rem;
+}
+.option-input.radio {
+  border-radius: 6px;
+}
+.option-input.radio::after {
+  border-radius: 6px;
+}
+.option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: transparent;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+.option-input:checked::before {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  content: '✔';
+  display: inline-block;
+  font-size: 26.66667px;
+  text-align: center;
+  line-height: 40px;
+}
+.option-input:hover {
+  background: transparent;
+  border: solid $bamba-primary 2px;
+}
+.option-input:checked {
+  background: transparent;
+  border: solid $bamba-primary 2px;
+}
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  transition: all 0.15s ease-out 0s;
+  background: transparent;
+  border: solid $bamba-primary 2px;
+  color: $bamba-primary;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+
+.font-weight-bold{
+  font-family: "Silka-Semibold";
+}
+h1{
+  font-family: "Silka-Semibold";
+}
+.About {
+  margin-top: 50px;
+}
+@media (max-width: 576px) {
+
+  .About {
+    margin-top: 60px;
+  }
+}
+
+h2{
+  font-size: $lg-font-size!important;
+  line-height: 36px;
+  text-align: start;
+  font-family: "Silka-Semibold";
+}
+h3{
+  font-size: $medium-font-size!important;
+  text-align: start;
+}
+
+p, li{
+  font-size:$small-font-size!important;
+  text-align: start;
+  line-height: 22px;
+}
+#app {
+  font-family: Silka;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $bamba-primary;
+  text-align: center;
+}
+
+.shopping-card-mobile {
+  color: #ffffff;
+}
+.icon-fill{
+  fill: #ffffff;
+}
+.check-fill {
+  fill: $bamba-warning;
+}
+.show-fill{
+  fill: $bamba-primary;
+}
+.box-type:checked {
+  background: $bamba-primary;
+}
+.box-type {
+  background: $bamba-primary-30;
+  border: solid $bamba-primary 1.5px;
+}
+.navy-background{
+  background: $bamba-primary;
+}
+.navbar-custom .navbar-nav .nav-link{
+  color: #ffffff;
+}
+label {
+  color: $bamba-primary;
+}

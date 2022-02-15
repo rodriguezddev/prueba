@@ -1,0 +1,78 @@
+{
+  "name": "bamba-marketplace",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "@marvr/storyblok-rich-text-vue-renderer": "^2.0.1",
+    "@sentry/tracing": "^6.9.0",
+    "@sentry/vue": "^6.9.0",
+    "@vue/composition-api": "^1.0.5",
+    "apexcharts": "^3.22.2",
+    "await-to-js": "^3.0.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "card": "^2.5.0",
+    "core-js": "^3.6.5",
+    "lockr": "^0.8.5",
+    "mixpanel-browser": "^2.41.0",
+    "moment": "^2.29.1",
+    "storyblok-js-client": "^4.1.3",
+    "swiper": "^6.6.2",
+    "vue": "^2.6.11",
+    "vue-analytics": "^5.22.1",
+    "vue-credit-card-validation": "^0.1.10",
+    "vue-gtm": "3.5.0-vue2",
+    "vue-mixpanel": "^2.0.0",
+    "vue-router": "^3.2.0",
+    "vue-the-mask": "^0.11.1",
+    "vue-ua": "^1.7.0",
+    "vue2-filters": "^0.13.0",
+    "vuelidate": "^0.7.6",
+    "vuesax": "^3.12.2",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-eslint": "^4.5.13",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-plugin-vuex": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2",
+    "storyblok-vue": "^1.0.5",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
